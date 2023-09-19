@@ -3,6 +3,7 @@ import './App.css'
 // import DaisyNav from './components/DaisyNav/DaisyNav'
 import PriceOptions from './components/PriceOptions/PriceOptions'
 import LineChart from './components/LineChart/LineChart'
+import Phones from './components/Phones/Phones'
 function App() {
  
 
@@ -13,6 +14,7 @@ function App() {
       <h1 className='text-5xl bg-rose-500'>Vite + React</h1>
 <PriceOptions></PriceOptions>
 <LineChart></LineChart>
+<Phones></Phones>
     </>
   )
 }
